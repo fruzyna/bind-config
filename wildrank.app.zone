@@ -1,0 +1,14 @@
+wildrank.app.	IN	SOA	pidns.fruzyna.net. dns.fruzyna.net. (
+        2023050501 ; serial
+        8H ; refresh
+        4H ; retry
+        4W ; expire
+        1D ; minimum
+)
+
+; nameserver
+wildrank.app.	IN	NS	pidns.fruzyna.net.
+
+; A records
+; wildrank.app.	IN	A	69.243.180.17
+wildrank.app.	IN	A	192.168.16.11

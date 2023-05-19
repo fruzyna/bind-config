@@ -1,0 +1,50 @@
+fruzyna.net.	IN	SOA	pidns.fruzyna.net. dns.fruzyna.net. (
+        2023050501 ; serial
+        8H ; refresh
+        4H ; retry
+        4W ; expire
+        1D ; minimum
+)
+
+; nameserver
+fruzyna.net.	IN	NS	pidns.fruzyna.net.
+
+; A records
+public		IN	A	69.243.180.17
+fruzyna.net.	IN	A	192.168.16.11
+localhost	IN	A	127.0.0.1
+pidns		IN	A	192.168.16.41
+dns		IN	A	192.168.16.41
+router		IN	A	192.168.16.1	
+rossy		IN	A	192.168.16.11	
+elmago		IN	A	192.168.16.12
+
+; CNAMEs
+avatar		IN	CNAME	@
+bakke		IN	CNAME	@
+dav		IN	CNAME	rossy
+emulator	IN	CNAME	rossy
+files		IN	CNAME	@
+finance		IN	CNAME	rossy
+git		IN	CNAME	rossy
+hass		IN	CNAME	@
+home		IN	CNAME	@
+homepage	IN	CNAME	@
+liam		IN	CNAME	@
+links		IN	CNAME	@
+otd		IN	CNAME	@
+photos		IN	CNAME	rossy
+rss		IN	CNAME	@
+stream		IN	CNAME	rossy
+wedding		IN	CNAME	@
+wiki		IN	CNAME	@
+wildrank	IN	CNAME	@
+www		IN	CNAME	@
+
+; email
+fruzyna.net.	IN	TXT	v=spf1 include:spf.messagingengine.com ?all
+fm1._domainkey	IN	CNAME	fm1.fruzyna.net.dkim.fmhosted.com.
+fm2._domainkey	IN	CNAME	fm2.fruzyna.net.dkim.fmhosted.com.
+fm3._domainkey	IN	CNAME	fm3.fruzyna.net.dkim.fmhosted.com.
+fruzyna.net.	IN	MX	10 in1-smtp.messagingengine.com.
+fruzyna.net.	IN	MX	20 in2-smtp.messagingengine.com.

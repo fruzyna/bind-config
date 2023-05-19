@@ -1,0 +1,23 @@
+wildstang.dev.	IN	SOA	pidns.fruzyna.net. dns.fruzyna.net. (
+        2023050501 ; serial
+        8H ; refresh
+        4H ; retry
+        4W ; expire
+        1D ; minimum
+)
+
+; nameserver
+wildstang.dev.	IN	NS	pidns.fruzyna.net.
+
+; CNAMEs
+docs		IN	CNAME	fruzyna.net.
+links		IN	CNAME	fruzyna.net.
+wildrank	IN	CNAME	fruzyna.net.
+
+; email
+wildstang.dev.	IN	TXT	v=spf1 include:spf.messagingengine.com ?all
+fm1._domainkey	IN	CNAME	fm1.wildstang.dev.dkim.fmhosted.com.
+fm2._domainkey	IN	CNAME	fm2.wildstang.dev.dkim.fmhosted.com.
+fm3._domainkey	IN	CNAME	fm3.wildstang.dev.dkim.fmhosted.com.
+wildstang.dev.	IN	MX	10 in1-smtp.messagingengine.com.
+wildstang.dev.	IN	MX	20 in2-smtp.messagingengine.com.

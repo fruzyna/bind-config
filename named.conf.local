@@ -1,0 +1,22 @@
+//
+// Do any local configuration here
+//
+
+// Consider adding the 1918 zones here, if they are not used in your
+// organization
+//include "/etc/bind/zones.rfc1918";
+
+zone "fruzyna.net" IN {
+	type master;
+	file "/etc/bind/fruzyna.net.zone";
+};
+
+zone "wildstang.dev" IN {
+	type master;
+	file "/etc/bind/wildstang.dev.zone";
+};
+
+zone "wildrank.app" IN {
+	type master;
+	file "/etc/bind/wildrank.app.zone";
+};
