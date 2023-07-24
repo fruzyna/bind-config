@@ -9,6 +9,9 @@ wildstang.dev.	IN	SOA	pidns.fruzyna.net. dns.fruzyna.net. (
 ; nameserver
 wildstang.dev.	IN	NS	pidns.fruzyna.net.
 
+; A records
+; wildstang.dev.	IN	A	69.243.180.17
+
 ; CNAMEs
 docs		IN	CNAME	fruzyna.net.
 links		IN	CNAME	fruzyna.net.
