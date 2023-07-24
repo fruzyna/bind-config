@@ -37,6 +37,7 @@ links		IN	CNAME	@
 otd		IN	CNAME	@
 photos		IN	CNAME	rossy
 rss		IN	CNAME	@
+rsvp		IN	CNAME	@
 stream		IN	CNAME	rossy
 wedding		IN	CNAME	@
 wiki		IN	CNAME	@
