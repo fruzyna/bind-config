@@ -18,6 +18,8 @@ dns		IN	A	192.168.16.41
 router		IN	A	192.168.16.1	
 rossy		IN	A	192.168.16.11	
 elmago		IN	A	192.168.16.12
+astrobin	IN	A	192.168.16.21
+rajai		IN	A	192.168.16.22
 
 ; CNAMEs
 avatar		IN	CNAME	@
