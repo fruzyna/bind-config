@@ -20,3 +20,8 @@ zone "wildrank.app" IN {
 	type master;
 	file "/etc/bind/wildrank.app.zone";
 };
+
+zone "bigpoppa.meme" IN {
+	type master;
+	file "/etc/bind/bigpoppa.meme.zone";
+};
