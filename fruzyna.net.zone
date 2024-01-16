@@ -25,7 +25,6 @@ rajai		IN	A	192.168.16.22
 avatar		IN	CNAME	@
 bakke		IN	CNAME	@
 dav		IN	CNAME	rossy
-emulator	IN	CNAME	rossy
 files		IN	CNAME	@
 finance		IN	CNAME	rossy
 git		IN	CNAME	rossy
@@ -37,6 +36,7 @@ links		IN	CNAME	@
 otd		IN	CNAME	@
 photos		IN	CNAME	rossy
 rss		IN	CNAME	@
+speed		IN	CNAME	rossy
 status		IN	CNAME	@
 stream		IN	CNAME	rossy
 wiki		IN	CNAME	@
