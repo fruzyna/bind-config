@@ -35,6 +35,7 @@ liam		IN	CNAME	@
 links		IN	CNAME	@
 otd		IN	CNAME	@
 photos		IN	CNAME	rossy
+races		IN	CNAME	@
 rss		IN	CNAME	@
 speed		IN	CNAME	rossy
 status		IN	CNAME	@
