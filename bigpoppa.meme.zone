@@ -10,5 +10,5 @@ bigpoppa.meme.	IN	SOA	pidns.fruzyna.net. dns.fruzyna.net. (
 bigpoppa.meme.	IN	NS	pidns.fruzyna.net.
 
 ; A records
-; bigpoppa.meme.	IN	A	69.243.180.17
+; bigpoppa.meme.	IN	A	76.141.105.4
 bigpoppa.meme.	IN	A	192.168.16.11

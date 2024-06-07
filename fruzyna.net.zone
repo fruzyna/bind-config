@@ -10,7 +10,7 @@ fruzyna.net.	IN	SOA	pidns.fruzyna.net. dns.fruzyna.net. (
 fruzyna.net.	IN	NS	pidns.fruzyna.net.
 
 ; A records
-public		IN	A	69.243.180.17
+public		IN	A	76.141.105.4
 fruzyna.net.	IN	A	192.168.16.11
 localhost	IN	A	127.0.0.1
 pidns		IN	A	192.168.16.41
