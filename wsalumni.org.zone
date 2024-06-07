@@ -1,0 +1,14 @@
+wsalumni.org.	IN	SOA	pidns.fruzyna.net. dns.fruzyna.net. (
+        2023050501 ; serial
+        8H ; refresh
+        4H ; retry
+        4W ; expire
+        1D ; minimum
+)
+
+; nameserver
+wsalumni.org.	IN	NS	pidns.fruzyna.net.
+
+; A records
+; wsalumni.org.	IN	A	76.141.105.4
+wsalumni.org.	IN	A	192.168.16.11
