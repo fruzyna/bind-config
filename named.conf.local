@@ -21,11 +21,6 @@ zone "wildrank.app" IN {
 	file "/etc/bind/wildrank.app.zone";
 };
 
-zone "bigpoppa.meme" IN {
-	type master;
-	file "/etc/bind/bigpoppa.meme.zone";
-};
-
 zone "wsalumni.org" IN {
 	type master;
 	file "/etc/bind/wsalumni.org.zone";
