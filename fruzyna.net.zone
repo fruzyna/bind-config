@@ -23,7 +23,6 @@ rajai		IN	A	192.168.16.22
 
 ; CNAMEs
 avatar		IN	CNAME	@
-bakke		IN	CNAME	@
 dav		IN	CNAME	rossy
 files		IN	CNAME	@
 finance		IN	CNAME	rossy
@@ -33,6 +32,7 @@ home		IN	CNAME	@
 homepage	IN	CNAME	@
 liam		IN	CNAME	@
 links		IN	CNAME	@
+metra		IN	CNAME	@
 otd		IN	CNAME	@
 photos		IN	CNAME	rossy
 races		IN	CNAME	@
@@ -40,7 +40,7 @@ rss		IN	CNAME	@
 speed		IN	CNAME	rossy
 status		IN	CNAME	@
 stream		IN	CNAME	rossy
-wiki		IN	CNAME	@
+wiki		IN	CNAME	rossy
 wildrank	IN	CNAME	@
 www		IN	CNAME	@
 

@@ -10,5 +10,5 @@ wildrank.app.	IN	SOA	pidns.fruzyna.net. dns.fruzyna.net. (
 wildrank.app.	IN	NS	pidns.fruzyna.net.
 
 ; A records
-; wildrank.app.	IN	A	76.141.105.4
+; wildrank.app.	IN	A	24.15.20.238
 wildrank.app.	IN	A	192.168.16.11

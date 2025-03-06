@@ -10,5 +10,5 @@ wsalumni.org.	IN	SOA	pidns.fruzyna.net. dns.fruzyna.net. (
 wsalumni.org.	IN	NS	pidns.fruzyna.net.
 
 ; A records
-; wsalumni.org.	IN	A	76.141.105.4
+; wsalumni.org.	IN	A	24.15.20.238
 wsalumni.org.	IN	A	192.168.16.11
